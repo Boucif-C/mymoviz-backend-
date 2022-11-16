@@ -2,7 +2,6 @@ var express = require('express');
 var router = express.Router();
 var fetch= require('node-fetch')
 
-
 const api_key=process.env.OWM_API_KEY;
 
 router.get('/movies',(req,res)=>{
